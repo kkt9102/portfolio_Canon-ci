@@ -202,7 +202,11 @@ setInterval(function a() {
   }
 },5000);
 
-
+function alerted(){
+	$('.alerted > .alert-box > .close-btn > .close-text').click(function(){
+		$('.alerted').removeClass('active');
+	})
+}
 
 
 
@@ -216,5 +220,5 @@ $(function(){
   notice__toggleUp();
   notice__toggleDown();
   startStop__toggle();
-
+  alerted();
 })

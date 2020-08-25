@@ -14,6 +14,15 @@
 </head>
 
 <body>
+  <!-- 모작페이지 알람 -->
+<div class="alerted active">
+  <div class="alert-box inline-block">이 페이지는 포트폴리오를 위한 페이지 입니다.
+    <div class="close-btn text-align-center">
+      <div class="close-text inline-block">확인</div>
+    </div>
+  </div>
+</div>
+<!-- 모작페이지 알람 끝 -->
   <!-- 스크롤메뉴 HTML -->
 <div class="scroll-menu fixed nav-up con-2 flex justify-content-sa">
     <div class="logo flex flex-ai-c"><a href="#"><img src="https://www.canon-ci.co.kr/resources/images/common/header/log_nor1.png" alt=""></a></div>
