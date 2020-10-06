@@ -1,0 +1,1185 @@
+.con {
+    max-width: 1164px;
+}
+.font-size-12 {
+    font-size: 12px;
+}
+.font-size-13 {
+    font-size: 13px;
+}
+.font-size-14 {
+    font-size: 14px;
+}
+.color-333 {
+    color:#333333;
+}
+.color-666 {
+    color:#666666;
+}
+.color-999 {
+    color:#999999;
+}
+.color-de2b31 {
+    color:#de2b31;
+}
+/* scroll-menu 커스텀 */
+.scroll-menu {
+    background: #fff;
+    width: 100%;
+    height:0px;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 1000;
+    overflow: hidden;
+    transition: height .3s;
+}
+.scroll-menu::after {
+    content: "";
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 1px;
+    background: #efefef;
+}
+.scroll-menu-box {
+    width: 100%;
+    height:100%;
+}
+.scroll-menu > .scroll-menu-box > .logo {
+    width: 172px;
+    height: 46px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.scroll-menu > .scroll-menu-box {
+    line-height: 70px;
+}
+.scroll-menu > .scroll-menu-box > ul > li > a:hover {
+    color:#de2b31;
+}
+
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 {
+    margin-left: 38px;
+    margin-right: 10px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > li {
+    padding:0 28px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-2 > li {
+    padding:0 12px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-2 > li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/bar_main_util_top.png) no-repeat 0 0;
+    width: 1px;
+    height: 11px;
+}
+.scroll-menu > .scroll-menu-box > .logo > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/log_nor1.png) no-repeat 0 0;
+    background-size: contain;
+    width: 172px;
+    height: 46px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .e-store > a > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/gnb_e_nor.png) no-repeat 0 0;
+    background-size: contain;
+    width: 8px;
+    height: 10px;
+    margin-top: 53%;
+    transform: translateY(50%);
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .e-store:hover > a > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/gnb_e_nor_hov.png) no-repeat 0 0;
+    background-size: contain;
+    width: 8px;
+    height: 10px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-3 {
+    width: 140px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-3 > .my-page {
+    background: #d9d9d9;
+    width: 70px;
+    height: 70px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-3 > .my-page > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/utl_fixed.png) no-repeat -18px -20px;
+    width: 38px;
+    height: 30px;
+    margin:0 auto;
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-3 > .search {
+    background: #cacaca;
+    width: 70px;
+    height: 70px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-3 > .search > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/utl_fixed.png) no-repeat -89px -20px;
+    width: 31px;
+    height: 30px;
+    margin:0 auto;
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+/* drop-menu-box-left-menu 커스텀 */
+
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box {
+    height:0;
+    overflow: hidden;
+    transition: height .4s;
+    background: rgba(255, 255, 255, 0.99);
+    z-index: 10;
+    position: fixed;
+    left:0;
+    right:0;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product:hover > .drop-menu-box {
+    height: 312px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > nav > ul > li {
+    padding:10px;
+}
+            /* drop-menu-box-left-menu 커스텀 */
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .left-menu {
+    width: 256px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .left-menu > ul > .smart-lens-finder > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/scroll-menu-banner.jpg) no-repeat 0 0;
+    width: 256px;
+    height: 214px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .left-menu > ul > .old-product-finder > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/scroll-menu-banner-2.png) no-repeat 0 0;
+    width: 256px;
+    height: 54px;
+}
+            /* drop-menu-box-right-menu 커스텀 */
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu {
+    width: calc(100% - 266px);
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > li {
+    width: calc(100%/7);
+    margin-top: 20px;
+    height: 130px;
+    color: #747474;
+    box-sizing: border-box;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > li:hover > a > .text {
+    border-bottom: 1px solid #de2b31;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > li > a {
+    height: 61px;
+    padding:0 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu> ul > li > a > .text {
+    position: absolute;
+    width: 100%;
+    top:100%;
+    left:50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu> ul > li:hover > a > .text {
+    color:#de2b31;
+}      
+
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > li > a > .icon {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}     
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > .dslr > a > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg1_1.png) no-repeat 0 0;
+    width: 63px;
+    height: 57px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > .mirrorless > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg21.png) no-repeat 0 0;
+    width: 63px;
+    height: 57px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > .lens > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg3.png) no-repeat 0 0;
+    width: 77px;
+    height: 44px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > .compact > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg41.png) no-repeat 0 0;
+    width: 64px;
+    height: 51px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > .photo-print > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg5.png) no-repeat 0 0;
+    width: 64px;
+    height: 51px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > .camcorder > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg7.png) no-repeat 0 0;
+    width: 86px;
+    height: 51px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > .cinema-eos > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg6.png) no-repeat 0 0;
+    width: 77px;
+    height: 53px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > .bctv> a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg8.png) no-repeat 0 0;
+    width: 63px;
+    height: 37px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > .display > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg9.png) no-repeat 0 0;
+    width: 63px;
+    height: 48px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > .binoculars > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg11.png) no-repeat 0 0;
+    width: 66px;
+    height: 48px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > .projector > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg15.png) no-repeat 0 0;
+    width: 69px;
+    height: 48px;
+}
+.scroll-menu > .scroll-menu-box > .scroll-menu-box-1 > .product > .drop-menu-box > .right-menu > ul > .acc > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg12.png) no-repeat 0 0;
+    width: 43px;
+    height: 61px;
+}
+            /* drop-menu-box-right-menu 커스텀 끝 */
+/* top-bar 커스텀 */
+.top-bar {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+    /* logo 커스텀 */
+.top-bar > .logo > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/log_nor1.png) no-repeat 0 0;
+    background-size: contain;
+    width: 172px;
+    height: 46px;
+    margin-top: 3px;
+}
+    /* menu-box-1 커스텀 */
+.top-bar > .menu-box-1 {
+    margin-top: 11px;
+}
+.top-bar > .menu-box-1 > ul  {
+    line-height: 28px;
+}
+.top-bar > .menu-box-1 > ul > .register,
+.top-bar > .menu-box-1 > ul > .search {
+    margin: 0 8px;
+}
+.top-bar > .menu-box-1 > ul > .login:hover > a ,
+.top-bar > .menu-box-1 > ul > .sign-in:hover > a  {
+    color:#de2b31;
+}
+.top-bar > .menu-box-1 > ul > .login::after,
+.top-bar > .menu-box-1 > ul > .sign-in::after {
+    content: "";
+    position: absolute;
+    right:-40%;
+    top:50%;
+    transform: translateY(-50%);
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/bar_main_util_top.png) no-repeat 0 0;
+    width: 1px;
+    height: 11px;
+}
+.top-bar > .menu-box-1 > ul > .login,
+.top-bar > .menu-box-1 > ul > .my-page,
+.top-bar > .menu-box-1 > ul > .sign-in
+ {
+    margin: 0 15px;
+}
+.top-bar > .menu-box-1 > ul > .my-page > a > .arrow-icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/ico_down01.gif) no-repeat 0 0;
+    width: 7px;
+    height: 4px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.top-bar > .menu-box-1 > ul > .my-page:hover > a > .arrow-icon {
+    transform: rotate(180deg);
+}
+.top-bar > .menu-box-1 > ul > .my-page > ul {
+    display: none;
+    border:1px solid #000000;
+    background: #fff;
+    top:25px;
+    left:-25px;
+    z-index: 10;
+}
+.top-bar > .menu-box-1 > ul > .my-page > ul > li > a {
+    padding: 0 15px;
+}
+.top-bar > .menu-box-1 > ul > .my-page:hover > ul {
+    display: block;
+}
+.top-bar > .menu-box-1 > ul > .my-page > ul > li:hover > a {
+    text-decoration: underline;
+}
+.top-bar > .menu-box-1 > ul > .register {
+    height: 28px;
+    background: #F15B63;
+}
+.top-bar > .menu-box-1 > ul > .register:hover {
+    background: #de2b31;
+}
+.top-bar > .menu-box-1 > ul > .register > a {
+    padding: 0 8px;
+    
+}
+    /* sns-icon 커스텀 */
+.top-bar > .menu-box-1 > ul > .icon-link {
+    width: 28px;
+    height: 28px;
+    margin: 0 3px;
+}
+.top-bar > .menu-box-1 > ul > .icon-link > a {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.top-bar > .menu-box-1 > ul > .facebook > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/sns4.png) no-repeat 0 0;
+}
+.top-bar > .menu-box-1 > ul > .youtube > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/sns4.png) no-repeat -66px 0;
+}
+.top-bar > .menu-box-1 > ul > .instagram > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/sns4.png) no-repeat -33px 0;
+}
+.top-bar > .menu-box-1 > ul > .blog > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/sns4.png) no-repeat -99px 0;
+}
+.top-bar > .menu-box-1 > ul > .kakao-story > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/sns4.png) no-repeat -132px 0;
+}
+.top-bar > .menu-box-1 > ul > .twitter > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/sns4.png) no-repeat -164px 0;
+}
+
+.top-bar > .menu-box-1 > ul > .search > a {
+    width: 126px;
+    height: 24px;
+    border: 2px solid #dcdcdc;
+    cursor: text;
+}
+.top-bar > .menu-box-1 > ul > .search > a::after {
+    content: "";
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/util_seh.png) no-repeat 0 0;
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    left:5px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.top-bar > .menu-box-1 > ul > .canon-site > a {
+    background: #838383;
+    height: 28px;
+    padding:0 10px 0 15px;
+}
+.top-bar > .menu-box-1 > ul > .canon-site:hover > a {
+    background: #696969;
+}
+.top-bar > .menu-box-1 > ul > .canon-site > a > .arrow-icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/icon_casite.png) no-repeat 0 -22px;
+    width: 7px;
+    height: 4px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+/* top-sub-bar 커스텀 */
+
+.top-sub-bar > .menu-box-2 > nav > ul  {
+    height: 46px;
+    line-height: 46px;
+}
+.top-sub-bar > .menu-box-2 > nav > ul > li:hover > a {
+    color: #de2b31;
+}
+
+    /* left-menu 커스텀 */
+        /* product drop-menu 커스텀 */
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box {
+    width: 100%;
+    height:0;
+    overflow: hidden;
+    transition: height .4s;
+    background: rgba(255, 255, 255, 0.99);
+    z-index: 10;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product:hover > .drop-menu-box {
+    height: 312px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > nav > ul > li {
+    padding:10px;
+}
+            /* drop-menu-box-left-menu 커스텀 */
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .left-menu {
+    width: 256px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .left-menu > ul > .smart-lens-finder > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/scroll-menu-banner.jpg) no-repeat 0 0;
+    width: 256px;
+    height: 214px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .left-menu > ul > .old-product-finder > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/scroll-menu-banner-2.png) no-repeat 0 0;
+    width: 256px;
+    height: 54px;
+}
+            /* drop-menu-box-right-menu 커스텀 */
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu {
+    width: calc(100% - 266px);
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > li {
+    width: calc(100%/7);
+    margin-top: 20px;
+    height: 130px;
+    color: #747474;
+    box-sizing: border-box;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > li:hover > a > .text {
+    border-bottom: 1px solid #de2b31;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > li > a {
+    height: 61px;
+    padding:0 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu> ul > li > a > .text {
+    position: absolute;
+    width: 100%;
+    top:100%;
+    left:50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu> ul > li:hover > a > .text {
+    color:#de2b31;
+}      
+
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > li > a > .icon {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}     
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > .dslr > a > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg1_1.png) no-repeat 0 0;
+    width: 63px;
+    height: 57px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > .mirrorless > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg21.png) no-repeat 0 0;
+    width: 63px;
+    height: 57px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > .lens > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg3.png) no-repeat 0 0;
+    width: 77px;
+    height: 44px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > .compact > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg41.png) no-repeat 0 0;
+    width: 64px;
+    height: 51px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > .photo-print > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg5.png) no-repeat 0 0;
+    width: 64px;
+    height: 51px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > .camcorder > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg7.png) no-repeat 0 0;
+    width: 86px;
+    height: 51px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > .cinema-eos > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg6.png) no-repeat 0 0;
+    width: 77px;
+    height: 53px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > .bctv> a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg8.png) no-repeat 0 0;
+    width: 63px;
+    height: 37px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > .display > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg9.png) no-repeat 0 0;
+    width: 63px;
+    height: 48px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > .binoculars > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg11.png) no-repeat 0 0;
+    width: 66px;
+    height: 48px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > .projector > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg15.png) no-repeat 0 0;
+    width: 69px;
+    height: 48px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .product > .drop-menu-box > .right-menu > ul > .acc > a > .icon  {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/lnb_prod_bg12.png) no-repeat 0 0;
+    width: 43px;
+    height: 61px;
+}
+            /* drop-menu-box-right-menu 커스텀 끝 */
+.top-sub-bar > .menu-box-2 > .left-menu > ul > li > a {
+    padding-left:6px;
+    padding-right: 54px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .e-store > a > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/gnb_e_nor.png) no-repeat 0 0;
+    width: 10px;
+    height: 12px;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+.top-sub-bar > .menu-box-2 > .left-menu > ul > .e-store:hover > a > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/gnb_e_nor_hov.png) no-repeat 0 0;
+}
+
+    /* right-menu 커스텀 */
+.top-sub-bar > .menu-box-2 > .right-menu > ul > li > a {
+    padding-right:10px;
+    padding-left: 18px;
+}
+.top-sub-bar > .menu-box-2 > .right-menu > ul > li > a > .icon {
+    margin-top: 10px;
+    margin-right: 12px;
+}
+.top-sub-bar > .menu-box-2 > .right-menu > ul > .photo-gallery > a > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/gnb2_calgal2.png) no-repeat 0 0;
+    width: 27px;
+    height: 23px;
+}
+.top-sub-bar > .menu-box-2 > .right-menu > ul > .canon-gallery > a > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/gnb2_gall2.png) no-repeat 0 0;
+    width: 30px;
+    height: 23px;
+}
+.top-sub-bar > .menu-box-2 > .right-menu > ul > .magazine> a > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/gnb2_maga2.png) no-repeat 0 0;
+    width: 30px;
+    height: 23px;
+}
+.top-sub-bar > .menu-box-2 > .right-menu > ul > .academy > a > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/gnb2_acad2.png) no-repeat 0 0;
+    width: 30px;
+    height: 23px;
+}
+/* slide 커스텀 시작 */
+.owl-carousel button {
+    outline: none;
+    border:none;
+    cursor:pointer;
+}
+/* main-slider 커스텀 */
+.main-slider button {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_b.png) no-repeat 0 0;
+    width:12px;
+    height:12px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 8px;
+}
+.main-slider button:focus {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_b_on.png) no-repeat 0 0;
+}
+.main-slider .owl-dots .owl-dot.active button {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_b_on.png) no-repeat 0 0;
+}
+.main-slider .main-play-stop-btn > div {
+    position:absolute;
+    display:none;
+    bottom:20px;
+    left:55%;
+    cursor:pointer;
+}
+.main-slider .main-play-stop-btn > div.active {
+    display:block;
+}
+.main-slider .main-play-stop-btn > .play {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_b_play.png) no-repeat 0 0;
+    width:12px;
+    height:12px;
+}
+.main-slider .main-play-stop-btn > .stop {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_b_stop.png) no-repeat 0 0;
+    width:12px;
+    height:12px;
+}
+
+/* sub-sliders 커스텀 */
+.sub-sliders {
+    margin-bottom: 15px;
+}
+    /* sub-sliders 공통 커스텀 */
+.sub-sliders > div > nav  button:focus {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_s_on.png) no-repeat 0 0;
+}
+.sub-sliders > div > nav .owl-dots .owl-dot.active button {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_s_on.png) no-repeat 0 0;
+}
+.sub-sliders > div .play-stop-btn > div {
+    position:absolute;
+    display:none;
+    bottom:17px;
+    right:15px;
+    cursor:pointer;
+}
+.sub-sliders > div   .play-stop-btn > div.active {
+    display:block;
+}
+.sub-sliders > div  .play-stop-btn > .play {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_b_play.png) no-repeat 0 0;
+    background-size: cover;
+    width:10px;
+    height:10px;
+}
+.sub-sliders > div  .play-stop-btn > .stop {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_b_stop.png) no-repeat 0 0;
+    background-size: cover;
+    width:10px;
+    height:10px;
+}
+.sub-sliders > div > nav  button {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_s.png) no-repeat 0 0;
+    width:10px;
+    height:10px;
+}
+.sub-sliders > div > nav  .owl-dots {
+    position: absolute;
+    bottom:15px;
+    right:25px;
+}
+.sub-sliders > div > nav  button {
+    margin-top: 15px;
+    margin-right: 3px;
+}
+.sub-sliders > div:not(.sub-1-slide-box) .info {
+    height: 137px;
+    background: #f4f4f4;
+}
+.sub-sliders > div > nav .info > .title {
+    z-index: 11;
+    bottom: 90px;
+    left:20px;
+    padding-bottom: 10px;
+}
+.sub-sliders > div > nav  .info > .title::after {
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 15px;
+    height: 1px;
+    background: #de2b31;
+} 
+.sub-sliders > div > nav  .info > .title {
+    letter-spacing: -0.7px;
+}
+.sub-sliders > div > nav  .info > .sub-title {
+    letter-spacing: -1.2px;
+}
+    /* sub-1-slider 커스텀 */
+.sub-1-slide-box {
+    width: 574px;
+    margin-right: 15px;
+}
+.sub-1-slide-box > .sub-1-slider .info > .bg-section {
+    width: 100%;
+    height: 137px;
+    background: rgba(244,244,244,0.9);
+    z-index: 10;
+}
+    /* sub-1-slide icon 커스텀 */
+.sub-1-slide-box > .sub-1-slider .info > .icon {
+    z-index: 10;
+    bottom:30px;
+    left:5px;
+} 
+    /* sub-1-slide sub-title 커스텀 */
+.sub-1-slide-box > .sub-1-slider .info > .sub-title {
+    z-index: 10;
+    font-size: 24px;
+    color: #747474;
+    bottom:40px;
+    left:105px;
+} 
+    /* sub-2-slider 커스텀 */
+.sub-2-slide-box {
+    width: 280px;
+    margin-right: 15px;
+}
+    /* sub-2-slide icon 커스텀 */
+.sub-2-slide-box > .sub-2-slider .info > .sub-title,
+.sub-3-slide-box > .sub-3-slider .info > .sub-title
+ {
+    z-index: 10;
+    font-size: 12px;
+    color: #747474;
+    bottom:45px;
+    left:20px;
+} 
+    /* sub-3-slider 커스텀 */
+.sub-3-slide-box {
+    width: 280px;
+}
+
+/* photo-gallery__e-store 커스텀 */
+.photo-gallery__e-store {
+    margin-bottom: 30px;
+}
+    /* photo-gallery 커스텀 */
+.photo-gallery__e-store > .photo-gallery {
+    width: 574px;
+    margin-right: 15px;
+}
+.photo-gallery__e-store > .photo-gallery > a > .info {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    transform: translateY(-3px);
+    background: rgba(244,244,244,0.9);
+}
+.photo-gallery__e-store > .photo-gallery > a > .info > .text > .title {
+    margin-left: 20px;
+    padding-right: 15px;
+    position: relative;
+    display: inline-block;
+}
+.photo-gallery__e-store > .photo-gallery > a > .info > .text > .title::after {
+    content: "";
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/bg_gallery_tit.png) no-repeat 0 0;
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 16px;
+}
+.photo-gallery__e-store > .photo-gallery > a > .info > .text > span:not(:first-child) {
+    font-size: 12px;
+}
+.photo-gallery__e-store > .photo-gallery > a > .info > .text > .photo-location {
+    color: #747474;
+    padding-left: 10px;
+    padding-right: 15px;
+    position: relative;
+    display: inline-block;
+}
+.photo-gallery__e-store > .photo-gallery > a > .info > .text > .camera-model {
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    display: inline-block;
+}
+.photo-gallery__e-store > .photo-gallery > a > .info > .text > .camera-model::after {
+    content: "";
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/bg_gallery_tit.png) no-repeat 0 0;
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 10px;
+}
+.photo-gallery__e-store > .photo-gallery > a > .info > .text > .photo-location::after {
+    content: "";
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/bg_gallery_line.png) no-repeat 0 0;
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 10px;
+}
+.photo-gallery__e-store > .photo-gallery > a > .info > .text > span:nth-child(1n + 3) {
+    color: #de2b31;
+    letter-spacing: -0.3px;
+}
+    /* e-store 커스텀 */
+.photo-gallery__e-store > .e-store-slide-box {
+    background: #f4f4f4;
+    width: 574px;
+    height: 346px;
+}
+.photo-gallery__e-store > .e-store-slide-box > .slider-title {
+    padding-top:29px;
+    padding-bottom: 10px;
+    margin-left:20px;
+    position: relative;
+}
+.photo-gallery__e-store > .e-store-slide-box > .slider-title::after {
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 15px;
+    height: 1px;
+    background: #de2b31;
+} 
+.photo-gallery__e-store > .e-store-slide-box > .slider-title > span {
+    font-size: 24px;
+}
+    /* e-store 세부 커스텀 */
+.photo-gallery__e-store > .e-store-slide-box > .e-store-slider li > a {
+    width: 50%;
+}
+.photo-gallery__e-store > .e-store-slide-box > .e-store-slider  li > a > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #cfcfcf;
+}
+.photo-gallery__e-store > .e-store-slide-box > .e-store-slider li > a > .info {
+    width: 100%;
+}
+.photo-gallery__e-store > .e-store-slide-box > .e-store-slider li > a > .info > div {
+    z-index: 10;
+    bottom:0;
+}
+.photo-gallery__e-store > .e-store-slide-box > .e-store-slider li > a > .info > .title {
+    font-size: 14px;
+    margin-top: 8px;
+}
+.photo-gallery__e-store > .e-store-slide-box > .e-store-slider li > a > .info > .sub-title {
+    font-size: 12px;
+    margin-top: 8px;
+    color: #747474;
+}
+.photo-gallery__e-store > .e-store-slide-box > .e-store-slider li > a > .info > .price {
+    font-size: 17px;
+    margin-top: 8px;
+}
+.photo-gallery__e-store > .e-store-slide-box > .e-store-slider  button:focus {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_s_on.png) no-repeat 0 0;
+}
+.photo-gallery__e-store > .e-store-slide-box > .e-store-slider .owl-dots .owl-dot.active button {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_s_on.png) no-repeat 0 0;
+}
+.photo-gallery__e-store > .e-store-slide-box .play-stop-btn > div {
+    position:absolute;
+    display:none;
+    bottom:-28px;
+    right:calc(50% - 26px);
+    cursor:pointer;
+}
+.photo-gallery__e-store > .e-store-slide-box  .play-stop-btn > div.active {
+    display:block;
+}
+.photo-gallery__e-store > .e-store-slide-box  .play-stop-btn > .play {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_b_play.png) no-repeat 0 0;
+    background-size: cover;
+    width:10px;
+    height:10px;
+}
+.photo-gallery__e-store > .e-store-slide-box  .play-stop-btn > .stop {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_b_stop.png) no-repeat 0 0;
+    background-size: cover;
+    width:10px;
+    height:10px;
+}
+.photo-gallery__e-store > .e-store-slide-box > .e-store-slider  button {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_s.png) no-repeat 0 0;
+    width:10px;
+    height:10px;
+}
+.photo-gallery__e-store > .e-store-slide-box > .e-store-slider  .owl-dots {
+    position: absolute;
+    bottom: -30px;
+    left:50%;
+    transform:translateX(-50%);
+}
+.photo-gallery__e-store > .e-store-slide-box > .e-store-slider  button {
+    margin-top: 15px;
+    margin-right: 3px;
+}
+
+/* bottom-banner-menu-1 커스텀 */
+.bottom-banner-menu-1 > .menu-box-3 > ul > li {
+    width: 280px;
+}
+.bottom-banner-menu-1 > .menu-box-3 > ul > li:not(:last-child) {
+    margin-right: calc(44px/3);
+}
+.bottom-banner-menu-1 > .menu-box-3 > ul > li > a > .text > .sub-title {
+    margin-top: 5px;
+}
+/* notice-board-slider 커스텀 */
+.notice-board {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.notice-board > .vertical-box {
+    border-top: 1px solid rgba(223, 223, 223,.6);
+    border-bottom: 1px solid rgba(223, 223, 223,.6);
+}
+.notice-board > .vertical-box > .notice-board-slider > .slick-slider {
+    width: calc(100% - 20px);
+}
+.notice-board > .vertical-box > .notice-board-slider > .slick-slider .item {
+    padding: 30px 0;
+}
+
+.notice-board > .vertical-box > .notice-board-slider > .next {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_s_top.png) no-repeat 0 0;
+    width: 11px;
+    height: 10px;
+    top:20%;
+    right:10px;
+}
+.notice-board > .vertical-box > .notice-board-slider > .prev {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_s_down.png) no-repeat 0 0;
+    width: 11px;
+    height: 10px;
+    bottom:20%;
+    right:10px;
+}
+.notice-board > .vertical-box > .notice-board-slider > .play-stop-btn {
+    top:50%;
+    transform: translateY(-50%);
+    right:11px;
+}
+.notice-board > .vertical-box > .notice-board-slider > .play-stop-btn > .play {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_b_play.png) no-repeat 0 0;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+}
+.notice-board > .vertical-box > .notice-board-slider > .play-stop-btn > .stop {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/btn_rolling_b_stop.png) no-repeat 0 0;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+}
+.notice-board > .vertical-box > .notice-board-slider > .play-stop-btn > div {
+    display: none;
+}
+.notice-board > .vertical-box > .notice-board-slider > .play-stop-btn > div.active {
+    display: block;
+}
+.notice-board > .vertical-box > .notice-board-slider > .slick-slider .board-section > .cate {
+    margin-right: 8px;
+}
+.notice-board > .vertical-box > .notice-board-slider > .slick-slider .board-section > .title {
+    margin-right: 25px;
+}
+.notice-board > .vertical-box > .notice-board-slider > .slick-slider .board-section > .text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 1.5em;
+    line-height: 1.5em;
+    width: 600px;
+    display: inline-block;
+}
+.notice-board > .vertical-box > .notice-board-slider > .slick-slider .board-section > .count-box {
+
+}
+.notice-board > .vertical-box > .notice-board-slider > .slick-slider .board-section > .count-box > .date {
+    margin-right: 10px;
+}
+.notice-board > .vertical-box > .notice-board-slider > .slick-slider .board-section > .count-box > .view-count {
+    margin-right: 20px;
+}
+.notice-board > .vertical-box > .notice-board-slider > .slick-slider .board-section > .count-box > .view-count > .count {
+    margin-left: 5px;
+}
+/* bottom-quick-menu 커스텀 */
+.bottom-quick-menu {
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+.bottom-quick-menu > .menu-box-4 > ul > li {
+    width: 280px;
+}
+.bottom-quick-menu > .menu-box-4 > ul > li:not(:last-child) {
+    margin-right: calc(44px/3);
+}
+.bottom-quick-menu > .menu-box-4 > ul > li > a > img {
+    margin-right: 20px;
+}
+.bottom-quick-menu > .menu-box-4 > ul > li > a > .text {
+    margin-top: 5px;
+}
+.bottom-quick-menu > .menu-box-4 > ul > li > a > .text > .title {
+    margin-bottom: 10px;
+}
+.bottom-quick-menu > .menu-box-4 > ul > li:hover > a > .text > .sub-title {
+    color: #000000;
+}
+
+/* bottom-site-map 커스텀 */
+.bottom-site-map {
+    border-top:1px solid rgba(223, 223, 223,.6);
+    border-bottom:1px solid rgba(223, 223, 223,.6);
+    background: rgba(239, 239, 239,.55);
+}
+.bottom-site-map > .menu-box-5 > nav > ul > li {
+    width: calc(100%/12);
+}
+.bottom-site-map > .menu-box-5 > nav > ul > li > a {
+    padding: 10px 0;
+    
+}
+/* page-all-menu 커스텀 */
+.page-all-menu {
+    height: 0;
+    overflow: hidden;
+    transition: height .3s;
+}
+.page-all-menu.active {
+    height: 344px;
+} 
+.page-all-menu > nav > ul {
+    width: calc(100%/12);
+}
+.page-all-menu > nav > ul  {
+    margin-top: 8px;
+}
+.page-all-menu > nav > ul > li > a {
+    padding: 5px 0;
+}
+/* bottom-banner-menu-2 커스텀 */
+.bottom-banner-menu-2 {
+    border-bottom:1px solid #dfdfdf;
+}
+.bottom-banner-menu-2 > .menu-box-6 > ul > li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.bottom-banner-menu-2 > .menu-box-6 > ul > li:not(:last-child) {
+    margin-right: 27px;
+}
+/* footer 커스텀 */
+.footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    /* footer menu-box-7 커스텀 */
+.footer > .menu-box-7 {
+    margin-bottom: 15px;
+}
+.footer > .menu-box-7 > ul > li {
+    padding-right: 1.9%;
+    position: relative;
+}
+.footer > .menu-box-7 > ul > li:not(:first-child) {
+    padding-left: 1.9%;
+}
+.footer > .menu-box-7 > ul > li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/bar_footer_02.png) no-repeat 0 0;
+    width:1px;
+    height: 10px;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+}
+.footer > .menu-box-7 > ul > li > a > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/arr_footer_up.png) no-repeat 0 0;
+    width: 7px;
+    height: 4px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+    /* footer corporation-info 커스텀 */
+.footer > .last-footer > .corporation-info > div {
+    margin-bottom: 5px;
+}
+.footer > .last-footer > .corporation-info > .corp-info-1 > div,
+.footer > .last-footer > .corporation-info > .corp-info-2 > div   {
+    padding-right: 20px;
+    position: relative;
+}
+.footer > .last-footer > .corporation-info > .corp-info-1 > div:not(:first-child),
+.footer > .last-footer > .corporation-info > .corp-info-2 > div:not(:first-child) {
+    padding-left: 20px;
+}
+.footer > .last-footer > .corporation-info > .corp-info-1 > div:not(:last-child)::after,
+.footer > .last-footer > .corporation-info > .corp-info-2 > div:not(:last-child)::after   {
+    content: "";
+    position: absolute;
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/bar_footer_02.png) no-repeat 0 0;
+    width:1px;
+    height: 10px;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+}
+.footer > .last-footer > .awards-img > .logo {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/awardLogo.png) no-repeat 0 0;
+    width: 66px;
+    height:87px;
+}
+.footer > .last-footer > .awards-img > .deco {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/canon/img01.png) no-repeat 0 0;
+    width: 98px;
+    height:137px;
+}
+
+.footer  .logo {
+    top:40px;
+    left:880px;
+  }
+.footer  .deco {
+    top:30px;
+  }
+
+  /* alerted 커스텀 */
+.alerted.active {
+    display: block;
+  }
+  .alerted {
+    display: none;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+  }
+  .alerted > .alert-box {
+      padding: 50px;
+      background: #fff;
+      position: absolute;
+      top:20%;
+      left:50%;
+      transform: translateY(-50%) translateX(-50%);
+    }
+  
+  .alerted > .alert-box > .close-btn {
+    margin-top: 20px;
+  }
+  
+  .alerted > .alert-box > .close-btn > .close-text {
+    padding: 5px 15px;
+    border:1px dotted #000;
+    cursor: pointer;
+  }
+  .alerted > .alert-box > .close-btn:active > .close-text {
+    background: #efefef;
+  }
+  /* alerted 커스텀 끝 */
